@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen overflow-x-hidden bg-white text-slate-900">
       <Navbar />
 
-      <main>
+      <main className="pt-[49px]">
         <section id="home" className="relative overflow-hidden">
           <div className="mx-auto grid w-full max-w-[23rem] items-start gap-8 px-4 py-8 sm:max-w-5xl sm:px-6 md:py-10 lg:grid-cols-[1.15fr_0.85fr] lg:px-8 lg:py-6">
             <div className="min-w-0 max-w-2xl overflow-hidden">

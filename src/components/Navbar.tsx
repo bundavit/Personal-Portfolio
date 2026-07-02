@@ -6,7 +6,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200/80 bg-white/95 shadow-sm backdrop-blur">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8" aria-label="Main navigation">
         <a href="#home" className="flex min-w-0 items-center gap-3 font-semibold text-slate-950" onClick={() => setIsOpen(false)}>
           <span className="flex h-8 w-8 items-center justify-center rounded-md bg-blue-600 text-xs font-bold text-white">VB</span>
