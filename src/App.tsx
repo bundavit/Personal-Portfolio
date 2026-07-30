@@ -45,13 +45,13 @@ function App() {
             <div className="min-w-0 w-full max-w-full justify-self-center rounded-lg border border-slate-200 bg-slate-50 p-3 shadow-sm sm:max-w-sm lg:justify-self-end">
               <div className="grid gap-2.5">
                 <div className="rounded-lg bg-white p-3.5 text-center shadow-sm">
-                  <div className="mx-auto h-28 w-28 overflow-hidden rounded-full border-4 border-blue-50 bg-blue-500 shadow-md">
+                  <div className="mx-auto h-44 w-36 overflow-hidden rounded-lg border border-blue-100 bg-blue-500 shadow-md">
                     <img
                       className="h-full w-full object-cover object-center"
-                      src="/profile-avatar.jpg"
+                      src="/profile-portrait.jpg"
                       alt="Professional portrait of Vath Bundavit"
-                      width="512"
-                      height="512"
+                      width="560"
+                      height="720"
                     />
                   </div>
                   <p className="mt-3 text-lg font-bold text-slate-950">Vath Bundavit</p>
