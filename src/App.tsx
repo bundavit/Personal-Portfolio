@@ -47,11 +47,11 @@ function App() {
                 <div className="rounded-lg bg-white p-3.5 text-center shadow-sm">
                   <div className="mx-auto h-28 w-28 overflow-hidden rounded-full border-4 border-blue-50 bg-blue-500 shadow-md">
                     <img
-                      className="h-full w-full object-cover object-[50%_16%]"
-                      src="/profile.jpg"
+                      className="h-full w-full object-cover object-center"
+                      src="/profile-avatar.jpg"
                       alt="Professional portrait of Vath Bundavit"
-                      width="192"
-                      height="192"
+                      width="512"
+                      height="512"
                     />
                   </div>
                   <p className="mt-3 text-lg font-bold text-slate-950">Vath Bundavit</p>
